@@ -26,7 +26,7 @@ ENV VERBOSE=${VERBOSE:-""}
 VOLUME ["/work_dir"]
 
 # 启动命令
-CMD ["sh", "-c", "python run_task.py"]
+CMD ["sh", "run.sh"]
 
 
 
